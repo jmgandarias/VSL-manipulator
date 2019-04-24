@@ -1,2 +1,2 @@
 # VSL-manipulator-
-Matlab scripts and apss for the VSL manipulator
+Matlab scripts and apps for the VSL manipulator
