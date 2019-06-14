@@ -1,0 +1,13 @@
+function goto(X)
+    threshold = 
+    Q = inverseKinematics(X);
+    MoveJ1(Q(1));
+    MoveJ2(Q(2));
+    MoveJ3(Q(3));
+    Q_current=getPosition();
+    
+    %Wait until the movement is completed
+    while(sqrt((Q(1)-Q_current(1))^2)+(Q(1)-Q_current(2))^2+(Q(3)-Q_current(3))^2)>threshold
+        Q_current=getPosition();
+    end
+end
