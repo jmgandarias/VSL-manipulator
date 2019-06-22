@@ -22,9 +22,9 @@ F.x=line(EjeX.x, EjeX.y,EjeX.z,'Color',c);
 F.y=line(EjeY.x, EjeY.y,EjeY.z,'Color',c); 
 F.z=line(EjeZ.x, EjeZ.y,EjeZ.z,'Color',c); 
 
-F.tx=text(XF(1),XF(2),XF(3),strcat(e,'x'),'Color',c);
-F.ty=text(YF(1),YF(2),YF(3),strcat(e,'y'),'Color',c);
-F.tz=text(ZF(1),ZF(2),ZF(3),strcat(e,'z'),'Color',c);
+% F.tx=text(XF(1),XF(2),XF(3),strcat(e,'x'),'Color',c);
+% F.ty=text(YF(1),YF(2),YF(3),strcat(e,'y'),'Color',c);
+% F.tz=text(ZF(1),ZF(2),ZF(3),strcat(e,'z'),'Color',c);
 
 F.T=T;
 F.L=L;
